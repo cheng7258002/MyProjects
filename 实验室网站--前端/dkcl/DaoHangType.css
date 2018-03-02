@@ -1,0 +1,19 @@
+﻿#daohangmenu{height:41px;;background:#18baf7;width:1200px;margin:0 auto;}
+#daohangmenu .container{position:absolute;overflow:visible;}
+#daohangmenu .menu{padding:0 0 0 206px;}
+#daohangmenu .menu li{position:relative;float:left;padding:0 8px 0 5px;display:inline;font-size:15px; }
+#daohangmenu .menu li h3{font-weight:normal;display:inline-block;float:left; }
+#daohangmenu .menu li a.xialaguang{margin-top:10px;display:inline-block;color:#FFF;height:35px;text-decoration:none;font-size:17px;width:100px;text-align:center; }
+#daohangmenu .menu li a.selected,#daohangmenu .menu li a.navhover,#daohangmenu .menu li a.xialaguang:hover{color:#18baf7; }
+#daohangmenu .menu li a.navhover, #daohangmenu .menu li a.xialaguang:hover{background-color:#FFF; }
+#daohangmenu .menu li a.xialaguang span{height:35px;line-height:25px;display:inline-block;font-weight:bold; }
+#daohangmenu .menu li a.selected span,#daohangmenu .menu li a.navhover span,#daohangmenu .menu li a.xialaguang:hover span{cursor:pointer; }
+#daohangmenu .menu li a.navhover span, #daohangmenu .menu li a.xialaguang:hover span{width:100px; }
+/*下拉框位置设置*/
+#daohangmenu .menu ul.children{display:none;position:absolute;top:40px;left:3px;width:170px;background:#FFF;border:2px solid #18baf7;border-top:0;line-height:normal; z-index:9999;}
+/*下拉框中li标签设置*/
+#daohangmenu .menu ul.children li{width:170px;padding:0px;display:inline-block;font-size:12px;border-top:1px solid #ccc; }
+#daohangmenu .menu ul.children li h3{display:block; width:100%; }
+/*下拉框中的字体*/
+#daohangmenu .menu ul.children li a{width:100%;height:25px;line-height:25px;overflow:hidden;padding:3px 0;display:block;color:#18baf7;text-align:center;text-decoration:none; font-size:15px; }
+#daohangmenu .menu ul.children li a:hover{background-color:#aee9ff;text-decoration:none; }

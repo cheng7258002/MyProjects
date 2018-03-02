@@ -1,0 +1,167 @@
+*{padding: 0px;
+margin: 0px;}
+img{border:0;}
+ul{list-style-type: none;}
+.left p{text-indent:2em;
+line-height: 30px;
+font-size: 14px;}
+#zt{width: 1200px;
+	height: 800px;
+	/*border: 1px solid gray;*/
+	margin: 0 auto;
+}
+#logo{width: 1200px;
+ height: 110px;
+ background: url(../images/logo.jpg);}
+ #logo .logo_l{float: left;margin-top: -1px;}
+ #logo .logo_r{float: right;}
+ #logo .logo_r .rukou{width: 613px;
+ 	height: 37px;}
+#logo .logo_r .rukou .xs,.js{
+background: url(dkpt_03.jpg);
+width: 78px;
+height: 25px;
+float: left;
+line-height: 25px;
+text-align: center;
+font-weight: bold;
+float: right;
+margin-top: 10px;}
+
+
+
+#xw{width: 900px;
+height: 290px;
+/*border: 1px solid red;*/
+margin: 0 auto;}
+
+#xw .tp{
+	width: 395px;
+height: 280px;
+border-bottom: 5px solid #0a4a92;
+float: left;
+}
+#xw .tp .liebiao{
+	width: 395px;
+/*height: 38px;*/
+border-bottom: 1px solid #ceff7a;
+/*background: url(dkpt_02.jpg);*/
+margin-top: 9px;
+line-height: 20px;
+font-size: 14px;
+font-weight: bold;
+text-align:justify;
+text-justify:inter-ideograph;
+font-family: "微软雅黑"
+}
+#xw .tp .liebiao li a{
+	/*color: #cc8b0b;*/
+	color:#1a53ff;
+}
+
+
+#xw .jieshao{
+	width: 455px;
+height:280px;
+border-bottom: 5px solid #0a4a92;
+float: right;
+}
+#xw .jieshao p{
+	line-height: 24px;
+	text-indent:2em;
+	font-size: 18px;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-family: "楷体"
+}
+#xw .jieshao p a{
+	color: #000d51;
+}
+
+#meirong{width: 900px;
+height: 300px;
+/*border: 1px solid red;*/
+margin: 0 auto;}
+#meirong .left{width: 295px;
+height: 279px;
+
+/*border: 1px solid purple;*/
+/*padding: 5px;*/
+margin-top: 20px;
+
+float: left;}
+#meirong .center{
+	width: 335px;
+	height: 279px;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+#meirong .center .pic{
+	width: auto;
+	height: 44px;
+}
+
+#meirong .center .pic .tu{
+	width: auto;
+	height: auto;
+	margin: 5px 20px 5px 20px;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #dbfaff;
+}
+#meirong .center .pic .tu:hover{
+	width: auto;
+	height: auto;
+	margin: 5px 20px 5px 20px;
+	border: 2px solid #ffc61a;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #fcff2d;
+}
+
+#meirong .right{
+	width: 220px;
+height: 279px;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	text-align: center;
+
+ }
+#meirong .right .tlogo{
+	height: 40px;
+	padding: 5px;
+}
+#meirong .right .tlogo:hover{
+	height: 40px;
+	padding: 5px;
+	background-color: #54bbff;
+}
+
+#buttom{width: 1200px;
+height: 80px;
+background:#bebdbd;
+}
+#buttom .jiaoben {width: 305px;
+	height: 75px;
+    font-size: 14px;
+	margin: 0 auto;
+line-height:10px;
+text-align: center;
+}
+#buttom .jiaoben p{line-height:10px;
+line-height: 20px;
+display: block;
+margin: 0 auto;
+margin-top: 5px;}
+#buttom .liuyan{width: 118px;
+height: 35px;
+position: relative;
+top:-70px;
+left: 870px;
+
+}
