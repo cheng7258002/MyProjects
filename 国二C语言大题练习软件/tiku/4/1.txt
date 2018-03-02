@@ -1,0 +1,78 @@
+程序通过定义学生结构体变量，存储了学生的学号、姓名和3门课的成绩。所 有学生数据均以二进制方式输出到文件中。函数fun的功能是从形参filename所指的文件中读入学生数据，并按照学号从小到大排序后,再用二进制方式把排序后的学生数据输出到filename所指的文件中，覆盖原来的文件内容。 
+请在程序的下划线处填入正确的内容并把下划线删除, 使程序得出正确的结果。 
+注意：源程序存放在考生文件夹下的BLANK1.C中。 
+不得增行或删行，也不得更改程序的结构！ 
+给定源程序： 
+#include <stdio.h>
+
+#define N 5 
+
+typedef struct student
+{ 
+	long sno; 
+	char name[10]; 
+	float score[3]; 
+}STU;
+
+void fun(char *filename) 
+{
+	FILE *fp;
+	int i, j; 
+	STU s[N], t; 
+	/**********found**********/ 
+	fp = fopen(filename, __1__); 
+	fread(s, sizeof(STU), N, fp); 
+	fclose(fp); 
+	for (i=0; i<N-1; i++) 
+		for (j=i+1; j<N; j++) 
+			/**********found**********/ 
+			if (s[i].sno __2__ s[j].sno) 
+			{
+				t = s[i];
+				s[i] = s[j];
+				s[j] = t;
+			} 
+	fp = fopen(filename, "wb"); 
+	/**********found**********/ 
+	__3__(s, sizeof(STU), N, fp); /* 二进制输出 */ 
+	fclose(fp); 
+}
+
+main() 
+{
+	STU t[N]={ {10005,"ZhangSan", 95, 80, 88},
+				{10003,"LiSi", 85, 70, 78}, 
+				{10002,"CaoKai", 75, 60, 88},
+				{10004,"FangFang", 90, 82, 87}, 
+				{10001,"MaChao", 91, 92, 77}}, ss[N]; 
+	int i,j;
+	FILE *fp; 
+	fp = fopen("student.dat", "wb"); 
+	fwrite(t, sizeof(STU), 5, fp); 
+	fclose(fp); 
+	printf("\n\nThe original data :\n\n"); 
+	for (j=0; j<N; j++) 
+	{
+		printf("\nNo: %ld Name: %-8s Scores: ",t[j].sno, t[j].name); 
+		for (i=0; i<3; i++)
+			printf("%6.2f ", t[j].score[i]); 
+		printf("\n"); 
+	} 
+	fun("student.dat"); 
+	printf("\n\nThe data after sorting :\n\n"); 
+	fp = fopen("student.dat", "rb"); 
+	fread(ss, sizeof(STU), 5, fp); 
+	fclose(fp); 
+	for (j=0; j<N; j++) 
+	{
+		printf("\nNo: %ld Name: %-8s Scores: ",ss[j].sno, ss[j].name); 
+		for (i=0; i<3; i++)
+			printf("%6.2f ", ss[j].score[i]); 
+		printf("\n"); 
+	} 
+} 
+解题思路： 
+本题是考察把结构中的数据写入文件。 
+第一处：建立文件的类型，考虑到是把结构中的数据（结构中的数据包含不打印的字符）从文件中读出，所以应填："rb"。 
+第二处：判断当前学号是否大于刚读出的学号进行相比，如果大于，则进行交换，所以应填：>。 
+第三处：把已排序的结构数据，重新写入文件，所以应填：fwrite。 

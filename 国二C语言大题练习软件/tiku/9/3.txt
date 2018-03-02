@@ -1,0 +1,47 @@
+请编写函数fun, 函数的功能是: 移动一维数组中的内容; 若数组中有n个整数, 要求把下标从0到p(含p,p小于等于n-1)的数组元素平移到数组的最后。 
+例如, 一维数组中的原始内容为: 1,2,3,4,5,6,7,8,9,10; p的值为3。移动后, 一维数组中的内容应为: 5,6,7,8,9,10,1,2,3,4。 
+注意：部分源程序在文件PROG1.C中。 
+请勿改动主函数main和其它函数中的任何内容，仅在函数fun的花括号中填入你编写的若干语句。 
+给定源程序： 
+#include <stdio.h> 
+
+#define N 80 
+
+void fun(int *w, int p, int n) 
+{ 
+
+
+
+} 
+main() 
+{
+	int a[N]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}; 
+	int i,p,n=15; 
+	printf("The original data:\n"); 
+	for(i=0; i<n; i++)
+		printf("%3d",a[i]); 
+	printf("\n\nEnter p: ");
+	scanf("%d",&p); 
+	fun(a,p,n); 
+	printf("\nThe data after moving:\n"); 
+	for(i=0; i<n; i++)
+		printf("%3d",a[i]); 
+	printf("\n\n"); 
+} 
+
+解题思路： 
+本题是考察一维数组的操作。 
+1. 定义一维数组中间变量b，把n值后面数组中的内容存入b中。 
+2. 再把m前的数组中的内容存入b中。 
+3. 最后把数组b的内容依次存放到w中。 
+参考答案： 
+void fun(int *w, int p, int n) 
+{ 
+	int i, j = 0, b[N] ; 
+	for(i = p + 1 ; i < n ; i++)
+		b[j++] = w[i] ; 
+	for(i = 0 ; i <= p ; i++)
+		b[j++] = w[i] ; 
+	for(i = 0 ; i < n ; i++)
+		w[i]= b[i] ; 
+} 

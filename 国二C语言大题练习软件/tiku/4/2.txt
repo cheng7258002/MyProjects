@@ -1,0 +1,42 @@
+给定程序MODI1.C中函数fun的功能是: 在字符串的最前端加入n个*号, 形成新串, 并且覆盖原串。 
+注意: 字符串的长度最长允许为79。 
+请改正函数fun中指定部位的错误, 使它能得出正确的结果。 
+注意: 不要改动main函数, 不得增行或删行, 也不得更改程序的结构! 
+给定源程序： 
+#include <stdio.h> 
+#include <string.h> 
+
+void fun ( char s[], int n ) 
+{ 
+	char a[80] , *p; 
+	int i; 
+	/**********found***********/ 
+	s=p; 
+	for(i=0; i<n; i++)
+		a[i]='*'; 
+	do 
+	{
+		a[i]=*p; 
+		i++; 
+	} 
+	/**********found***********/ 
+	while(*p++) 
+	a[i]=0; 
+	strcpy(s,a); 
+} 
+
+main() 
+{
+	int n;
+	char s[80]; 
+	printf("\nEnter a string : ");
+	gets(s); 
+	printf("\nThe string \"%s\"\n",s); 
+	printf("\nEnter n ( number of * ) : ");
+	scanf("%d",&n); 
+	fun(s,n); 
+	printf("\nThe string after insert : \"%s\" \n" ,s); 
+} 
+解题思路： 
+第一处: 指针p应指向s，所以应改为：p=s;。 
+第二处: 死循环，当do while循环执行一次，临时变量p应该指向字符串的下一位置，所以应改为：while(*p++);。 

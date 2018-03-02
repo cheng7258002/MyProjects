@@ -1,0 +1,45 @@
+给定程序MODI1.C中函数fun的功能是: 比较两个字符串，将长的那个字符串 的首地址作为函数值返回。 
+请改正函数fun中指定部位的错误, 使它能得出正确的结果。 
+注意: 不要改动main函数, 不得增行或删行, 也不得更改程序的结构! 
+给定源程序： 
+#include <stdio.h> 
+
+/**********found**********/ 
+char fun(char *s, char *t) 
+{ 
+	int sl=0,tl=0;
+	char *ss, *tt; 
+	ss=s;
+	tt=t; 
+	while(*ss) 
+	{
+		sl++; 
+		/**********found**********/ 
+		(*ss)++; 
+	} 
+	while(*tt) 
+	{
+		tl++; 
+		/**********found**********/ 
+		(*tt)++; 
+	} 
+	if(tl>sl)
+		return t; 
+	else
+		return s; 
+} 
+
+main() 
+{ 
+	char a[80],b[80],*p,*q;
+	int i; 
+	printf("\nEnter a string : ");
+	gets(a); 
+	printf("\nEnter a string again : ");
+	gets(b); 
+	printf("\nThe longer is :\n\n\"%s\"\n",fun(a,b)); 
+} 
+解题思路： 
+第一处: 试题要求返回字符串的首地址，所以应改为：char *fun(char *s,char *t) 
+第二处: 取字符串指针ss的下一个位置，所以应改为：ss++;。 
+第三处：取字符串指针tt的下一个位置，所以应改为：tt++;。 

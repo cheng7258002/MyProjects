@@ -1,0 +1,41 @@
+请编写一个函数，函数的功能是删除字符串中的所有空格。 
+例如, 主函数中输入"asd af aa z67", 则输出为 "asdafaaz67"。 
+注意：部分源程序在文件PROG1.C中。 
+请勿改动主函数main和其它函数中的任何内容，仅在函数fun的花括号中填入你编写的若干语句。 
+给定源程序： 
+#include <stdio.h> 
+#include <ctype.h> 
+
+int fun(char *str) 
+{ 
+
+
+
+} 
+
+main() 
+{ 
+	char str[81]; 
+	int n; 
+	printf("Input a string:") ; 
+	gets(str); 
+	puts(str); 
+	fun(str); 
+	printf("*** str: %s\n",str); 
+} 
+
+解题思路： 
+本题是考察考生怎样利用字符串指针来删除字符串的空格字符。在函数开始处把指针p先指向字符串str以及位置变量i置0，然后采用while循环和字符串指针p来处理的，每循环一次来判断指针p所指的字符是否为空格，如果不是空格，则把该字符写到str字符串中，位置由i来控制，如果是空格，则不处理，继续取下一字符，直至字符串结束为止，最后再把字符串结束符写到位置为i的str上，再通过形参str返回。 
+参考答案： 
+int fun(char *str) 
+{ 
+	char *p = str ; 
+	int i = 0 ; 
+	while(*p)
+	{ 
+		if(*p != ' ')
+			str[i++] = *p ; 
+		p++ ; 
+	} 
+	str[i] = 0 ; 
+} 

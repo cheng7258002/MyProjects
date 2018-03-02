@@ -1,0 +1,53 @@
+程序定义了N×N的二维数组，并在主函数中自动赋值。请编写函数fun(int a[][N], int n)，函数的功能是：使数组左下三角元素中的值乘以n 。 
+例如：若n的值为3，a 数组中的值为 
+    | 1 9 7 |                               | 3  9  7 | 
+a = | 2 3 8 | 则返回主程序后a数组中的值应为 | 6  9  8 | 
+    | 4 5 6 |                               | 12 15 18| 
+注意: 部分源程序存在文件PROG1.C中。 
+请勿改动主函数main和其它函数中的任何内容，仅在函数fun的花括号中填入你编写的若干语句。 
+给定源程序： 
+#include <stdio.h> 
+#include <stdlib.h> 
+
+#define N 5 
+
+int fun ( int a[][N], int n ) 
+{ 
+
+
+} 
+main ( ) 
+{
+	int a[N][N], n, i, j; 
+	printf("***** The array *****\n"); 
+	for ( i =0; i<N; i++ ) 
+	{
+		for ( j =0; j<N; j++ ) 
+		{
+			a[i][j] = rand()%10;
+			printf( "%4d", a[i][j] );
+		} 
+		printf("\n"); 
+	} 
+	do n = rand()%10 ; while ( n >=3 ); 
+	printf("n = %4d\n",n); 
+	fun ( a, n ); 
+	printf ("***** THE RESULT *****\n"); 
+	for ( i =0; i<N; i++ ) 
+	{
+		for ( j =0; j<N; j++ )
+			printf( "%4d", a[i][j] ); 
+		printf("\n"); 
+	} 
+} 
+
+解题思路： 
+本题是利用两重循环给二维数组左下三角元素中的值乘以n。 
+参考答案： 
+int fun ( int a[][N], int n ) 
+{ 
+	int i, j; 
+	for(i = 0 ; i < N ; i++) 
+		for(j = 0 ; j <= i; j++) 
+			a[i][j] *= n ; 
+} 

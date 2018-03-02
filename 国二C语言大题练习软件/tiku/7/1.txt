@@ -1,0 +1,41 @@
+程序通过定义并赋初值的方式，利用结构体变量存储了一名学生的信息。函数fun的功能是输出这位学生的信息。 
+请在程序的下划线处填入正确的内容并把下划线删除，使程序得出正确的结果。 
+注意：源程序存放在考生文件夹下的BLANK1.C中。 
+不得增行或删行，也不得更改程序的结构！ 
+给定源程序： 
+#include <stdio.h> 
+
+typedef struct 
+{
+	int num; 
+	char name[9]; 
+	char sex; 
+	struct {
+		int year,month,day ;
+	} birthday; 
+	float score[3]; 
+}STU; 
+
+/**********found**********/ 
+void show(STU ___1___) 
+{
+	int i; 
+	printf("\n%d %s %c %d-%d-%d", tt.num, tt.name, tt.sex, tt.birthday.year, tt.birthday.month, tt.birthday.day); 
+	for(i=0; i<3; i++) 
+		/**********found**********/ 
+		printf("%5.1f", ___2___); 
+	printf("\n"); 
+} 
+
+main( ) 
+{
+	STU std={ 1,"Zhanghua",'M',1961,10,8,76.5,78.0,82.0 }; 
+	printf("\nA student data:\n"); 
+	/**********found**********/ 
+	show(___3___); 
+} 
+解题思路： 
+本题是利用结构体变量存储了一名学生的信息。 
+第一处：tt变量在函数体fun已经使用，所以应填：tt。 
+第二处：利用循环分别输出学生的成绩数据，所以应填：tt.score[i]。 
+第三处：函数的调用，所以应填：std。 

@@ -1,0 +1,38 @@
+给定程序MODI1.C中函数fun的功能是: 将s所指字符串中的字母转换为按字母序列的后续字母(但Z转换为A, z转换为a),其它字符不变。 
+请改正函数fun中指定部位的错误, 使它能得出正确的结果。 
+注意: 不要改动main函数, 不得增行或删行, 也不得更改程序的结构! 
+给定源程序： 
+#include <stdio.h> 
+#include <ctype.h> 
+
+void fun (char *s) 
+{ 
+	/**********found***********/ 
+	while(*s!='@') 
+	{
+		if(*s>='A' & *s<='Z' || *s>='a' && *s<='z') 
+		{
+			if(*s=='Z')
+				*s='A'; 
+			else if(*s=='z') *s='a'; 
+			else *s += 1; 
+		} 
+		/**********found***********/ 
+		(*s)++; 
+	} 
+} 
+
+main() 
+{
+	char s[80]; 
+	printf("\n Enter a string with length < 80. :\n\n ");
+	gets(s); 
+	printf("\n The string : \n\n ");
+	puts(s); 
+	fun ( s ); 
+	printf ("\n\n The Cords :\n\n ");
+	puts(s); 
+} 
+解题思路： 
+第一处: 使用while循环来判断字符串指针s是否结束，所以应改为：while(*s)。 
+第二处: 取字符串指针s的下一个位置，所以应改为：s++;。 

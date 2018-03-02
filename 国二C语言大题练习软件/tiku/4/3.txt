@@ -1,0 +1,57 @@
+请编写函数fun,函数的功能是:统计各年龄段的人数。N个年龄通过调用随机函数获得,并放在主函数的age数组中；要求函数把0至9岁年龄段的人数放在d[0]中,把10至19岁年龄段的人数放在d[1]中,把20至29岁年龄段的人数放在d[2]中,其余依此类推, 把100岁 (含100)以上年龄的人数都放在d[10]中。结果在主函数中输出。 
+注意：部分源程序在文件PROG1.C中。 
+请勿改动主函数main和其它函数中的任何内容,仅在函数fun的花括号中填入 你编写的若干语句。 
+给定源程序： 
+#include <stdio.h>
+
+#define N 50 
+#define M 11 
+
+void fun( int *a, int *b) 
+{ 
+
+
+
+} 
+
+double rnd() 
+{
+	static t=29,c=217,m=1024,r=0; 
+	r=(r*t+c)%m;
+	return((double)r/m); 
+} 
+
+main() 
+{
+	int age[N], i, d[M]; 
+	for(i=0; i<N;i++)
+		age[i]=(int)(115*rnd()); 
+	printf("The original data :\n"); 
+	for(i=0;i<N;i++)
+		printf((i+1)%10==0?"%4d\n":"%4d",age[i]); 
+	printf("\n\n"); 
+	fun( age, d); 
+	for(i=0;i<10;i++)
+		printf("%4d---%4d : %4d\n",i*10,i*10+9,d[i]); 
+	printf(" Over 100 : %4d\n",d[10]); 
+} 
+
+解题思路： 
+本题是统计各年龄段的人数。 
+1. 初始化各年龄段人数为0。 
+2. 使用for循环以及求出各年龄的十位数字作为存放人数的地址，如果大于值大于10，则存入d[10]中（大于110岁的人）。 
+参考答案： 
+void fun( int *a, int *b) 
+{ 
+	int i, j ; 
+	for(i = 0 ; i < M ; i++)
+		b[i] = 0 ; 
+	for(i = 0 ; i < N ; i++)
+	{ 
+		j = a[i] / 10 ; 
+		if(j > 10)
+			b[M - 1]++ ;
+		else
+			b[j]++ ; 
+	} 
+}

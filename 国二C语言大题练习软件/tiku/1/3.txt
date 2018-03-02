@@ -1,0 +1,43 @@
+请编写一个函数fun，它的功能是：将一个数字字符串转换为一个整数(不得 调用C语言提供的将字符串转换为整数的函数)。例如，若输入字符串"-1234",则 函数把它转换为整数值 -1234。函数fun中给出的语句仅供参考。 
+注意: 部分源程序存在文件PROG1.C文件中。 
+请勿改动主函数main和其它函数中的任何内容， 仅在函数fun的花括号中填 入你编写的若干语句。 
+给定源程序： 
+#include <stdio.h> 
+#include <string.h> 
+
+long fun ( char *p) 
+{ 
+
+
+
+
+} 
+
+main() /* 主函数 */ 
+{
+	char s[6]; 
+	long n; 
+	printf("Enter a string:\n") ; 
+	gets(s); 
+	n = fun(s); 
+	printf("%ld\n",n); 
+}
+解题思路： 
+本题是将一个数字字符串转换为一个整数。 
+参考答案：
+long fun ( char *p) 
+{ 
+	int i, len, t; /* len为串长，t为正负标识 */ 
+	long x=0; 
+	len=strlen(p); 
+	if(p[0]=='-') 
+	{
+		t=-1;
+		len--;
+		p++;
+	} 
+	else t=1; 
+	/* 以下完成数字字符串转换为一个数字 */ 
+	while(*p) x = x*10-48+(*p++); 
+	return x*t; 
+} 

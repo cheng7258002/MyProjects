@@ -1,0 +1,65 @@
+给定程序中，函数fun的功能是：判定形参a所指的N×N（规定N为奇数）的矩阵是否是"幻方"，若是，函数返回值为1； 不是，函数返回值为0。"幻方"的判定条件是：矩阵每行、每列、主对角线及反对角线上元素之和都相等。 
+例如，以下3×3的矩阵就是一个"幻方"： 
+	4 9 2 
+	3 5 7 
+	8 1 6 
+请在程序的下划线处填入正确的内容并把下划线删除, 使程序得出正确的结果。 
+注意：源程序存放在考生文件夹下的BLANK1.C中。 
+不得增行或删行，也不得更改程序的结构！ 
+给定源程序： 
+#include <stdio.h> 
+
+#define N 3 
+
+int fun(int (*a)[N]) 
+{
+	int i,j,m1,m2,row,colum; 
+	m1=m2=0; 
+	for(i=0; i<N; i++) 
+	{
+		j=N-i-1;
+		m1+=a[i][i];
+		m2+=a[i][j];
+	} 
+	if(m1!=m2)
+		return 0; 
+	for(i=0; i<N; i++)
+	{ 
+		/**********found**********/ 
+		row=colum= __1__; 
+		for(j=0; j<N; j++) 
+		{
+			row+=a[i][j];
+			colum+=a[j][i];
+		} 
+		/**********found**********/ 
+		if( (row!=colum) __2__ (row!=m1) )
+			return 0; 
+	} 
+	/**********found**********/ 
+	return __3__; 
+}
+
+main() 
+{
+	int x[N][N],i,j; 
+	printf("Enter number for array:\n"); 
+	for(i=0; i<N; i++) 
+	for(j=0; j<N; j++)
+		scanf("%d",&x[i][j]); 
+	printf("Array:\n"); 
+	for(i=0; i<N; i++) 
+	{
+		for(j=0; j<N; j++)
+			printf("%3d",x[i][j]); 
+		printf("\n"); 
+	} 
+	if(fun(x))
+		printf("The Array is a magic square.\n"); 
+	else
+		printf("The Array isn't a magic square.\n"); 
+} 
+解题思路： 
+第一处：行列变量row和colum的值初始化为0。 
+第二处：两个条件只要有一个不满足就返回0，所以应填：||。 
+第三处：如果矩阵是“幻方”，则返回1。 

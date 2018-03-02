@@ -1,0 +1,42 @@
+给定程序中,函数fun的功能是将形参给定的字符串、整数、浮点数写到文本文件中，再用字符方式从此文本文件中逐个读入并显示在终端屏幕上。 
+请在程序的下划线处填入正确的内容并把下划线删除, 使程序得出正确的结果。 
+注意：源程序存放在考生文件夹下的BLANK1.C中。 
+不得增行或删行，也不得更改程序的结构！ 
+给定源程序： 
+#include <stdio.h> 
+
+void fun(char *s, int a, double f) 
+{ 
+	/**********found**********/ 
+	__1__ fp; 
+	char ch; 
+	fp = fopen("file1.txt", "w"); 
+	fprintf(fp, "%s %d %f\n", s, a, f); 
+	fclose(fp); 
+	fp = fopen("file1.txt", "r"); 
+	printf("\nThe result :\n\n"); 
+	ch = fgetc(fp); 
+	/**********found**********/ 
+	while (!feof(__2__))
+	{ 
+		/**********found**********/ 
+		putchar(__3__);
+		ch = fgetc(fp);
+	} 
+	putchar('\n'); 
+	fclose(fp); 
+} 
+
+main() 
+{
+	char a[10]="Hello!";
+	int b=12345; 
+	double c= 98.76; 
+	fun(a,b,c); 
+} 
+
+解题思路： 
+本题是考察先把给定的数据写入到文本文件中，再从该文件读出并显示在屏幕上。 
+第一处：定义文本文件类型变量，所以应填：FILE *。 
+第二处：判断文件是否结束，所以应填：fp。 
+第三处：显示读出的字符，所以应填：ch。 

@@ -1,0 +1,41 @@
+请编写函数fun, 函数的功能是:统计一行字符串中单词的个数,作为函数值返 回。一行字符串在主函数中输入, 规定所有单词由小写字母组成,单词之间由若干 个空格隔开, 一行的开始没有空格。 
+注意：部分源程序在文件PROG1.C中。 
+请勿改动主函数main和其它函数中的任何内容, 仅在函数fun的花括号中填入 你编写的若干语句。 
+给定源程序： 
+#include <stdio.h> 
+#include <string.h> 
+
+#define N 80 
+
+int fun( char *s) 
+{ 
+
+
+} 
+
+main() 
+{ 
+	char line[N];
+	int num=0; 
+	printf("Enter a string :\n");
+	gets(line); 
+	num=fun( line ); 
+	printf("The number of word is : %d\n\n",num); 
+} 
+
+解题思路： 
+本题是统计字符串中的单词数。 
+1. 利用while循环语句和指针变量，当字符为空格时，则单词数k加1。 
+2. 循环结束返回k。 
+参考答案：
+int fun( char *s) 
+{ 
+	int k = 1 ; 
+	while(*s)
+	{ 
+		if(*s == ' ') 
+			k++ ; 
+		s++ ; 
+	} 
+	return k ; 
+} 

@@ -1,0 +1,50 @@
+给定程序通过定义并赋初值的方式，利用结构体变量存储了一名学生的学号、姓名和3门课的成绩。函数fun的功能是将该学生的各科成绩都乘以一个系数a。 
+请在程序的下划线处填入正确的内容并把下划线删除，使程序得出正确的结果。 
+注意：源程序存放在考生文件夹下的BLANK1.C中。 
+不得增行或删行，也不得更改程序的结构！ 
+给定源程序： 
+#include <stdio.h> 
+
+typedef struct 
+{
+	int num; 
+	char name[9]; 
+	float score[3]; 
+}STU; 
+
+void show(STU tt) 
+{
+	int i; 
+	printf("%d %s : ",tt.num,tt.name); 
+	for(i=0; i<3; i++) 
+	printf("%5.1f",tt.score[i]); 
+	printf("\n"); 
+} 
+
+/**********found**********/ 
+void modify(___1___ *ss,float a) 
+{
+	int i; 
+	for(i=0; i<3; i++) 
+		/**********found**********/ 
+		ss->___2___ *=a; 
+} 
+
+main( ) 
+{
+	STU std={ 1,"Zhanghua",76.5,78.0,82.0 }; 
+	float a; 
+	printf("\nThe original number and name and scores :\n"); 
+	show(std); 
+	printf("\nInput a number : ");
+	scanf("%f",&a); 
+	/**********found**********/ 
+	modify(___3___,a); 
+	printf("\nA result of modifying :\n"); 
+	show(std); 
+} 
+解题思路： 
+本题是利用结构体存储学生记录并由实参ss返回。 
+第一处：实参ss是一个结构型指针变量，所以应填：STU。 
+第二处：该学生的各科成绩都乘以一个系数a，所以应填：score[i]。 
+第三处：函数的调用，由于函数定义时使用的指针结构型变量，所以应填：&std。 

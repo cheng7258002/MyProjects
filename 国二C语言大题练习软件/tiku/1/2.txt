@@ -1,0 +1,29 @@
+给定程序MODI1.C中函数 fun 的功能是：计算n!。 
+例如，给n输入5，则输出120.000000。 
+请改正程序中的错误，使程序能输出正确的结果。 
+注意：不要改动main函数，不得增行或删行，也不得更改程序的结构！ 
+给定源程序： 
+#include <stdio.h>
+
+double fun ( int n )
+{ 
+	double result = 1.0 ; 
+	/************found************/ 
+	if n = = 0 
+		return 1.0 ; 
+	while( n >1 && n < 170 ) 
+	/************found************/ 
+		result *= n-- 
+	return result ; 
+} 
+
+main ( ) 
+{ 
+	int n ; 
+	printf("Input N:") ; 
+	scanf("%d", &n) ; 
+	printf("\n\n%d! =%lf\n\n", n, fun(n)) ; 
+} 
+解题思路： 
+第一处：条件语句书写格式错误，应改为：if (n==0)。 
+第二处：语句后缺少分号。 

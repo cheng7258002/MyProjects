@@ -1,0 +1,29 @@
+给定程序MODI1.C中函数fun的功能是: 依次取出字符串中所有数字字符, 形成新的字符串, 并取代原字符串。 
+请改正函数fun中指定部位的错误, 使它能得出正确的结果。 
+注意: 不要改动main函数, 不得增行或删行, 也不得更改程序的结构! 
+给定源程序： 
+#include <stdio.h> 
+
+void fun(char *s) 
+{
+	int i,j; 
+	for(i=0,j=0; s[i]!='\0'; i++) 
+		if(s[i]>='0' && s[i]<='9') 
+			/**********found**********/ 
+			s[j]=s[i]; 
+	/**********found**********/ 
+	s[j]="\0"; 
+} 
+
+main() 
+{
+	char item[80]; 
+	printf("\nEnter a string : ");
+	gets(item); 
+	printf("\n\nThe string is : \"%s\"\n",item); 
+	fun(item); 
+	printf("\n\nThe string of changing is : \"%s\"\n",item ); 
+} 
+解题思路： 
+第一处: 要求是取出原字符串中所有数字字符组成一个新的字符串，程序中是使用变量j 来控制新字符串的位置，所以应改为：s[j++]=s[i];。 
+第二处: 置新字符串的结束符，所以应改为：s[j]='\0';. 

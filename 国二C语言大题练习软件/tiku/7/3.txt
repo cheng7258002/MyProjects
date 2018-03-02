@@ -1,0 +1,35 @@
+请编写一个函数 unsigned fun ( unsigned w )，w 是一个大于10的无符号整数，若 w 是 n (n ≥ 2)位的整数，函数求出w的低 n-1位的数作为函数值返回。 
+例如：w 值为 5923，则函数返回 923； w 值为 923 则函数返回 23。 
+注意: 部分源程序存在文件PROG1.C中。 
+请勿改动主函数main和其它函数中的任何内容，仅在函数fun的花括号中填入你编写的若干语句。 
+给定源程序： 
+#include <stdio.h> 
+
+unsigned fun ( unsigned w ) 
+{ 
+
+
+
+} 
+
+main( ) 
+{
+	unsigned x; 
+	printf ( "Enter a unsigned integer number : " );
+	scanf ( "%u", &x ); 
+	printf ( "The original data is : %u\n", x ); 
+	if ( x < 10 ) printf ("Data error !"); 
+	else printf ( "The result : %u\n", fun ( x ) ); 
+} 
+
+解题思路： 
+本题是考察考生怎样获取一个符合要求的无符号整数。本题是应用if条件语句首先判断给出的数是几位数，再模相应的值，最后得出的余数就是结果。 
+参考答案： 
+unsigned fun ( unsigned w ) 
+{ 
+	if(w>10000) w %= 10000 ; 
+	else if(w>1000) w %= 1000 ; 
+	else if(w>100) w %= 100 ; 
+	else if(w>10) w %=10 ; 
+	return w ; 
+} 
