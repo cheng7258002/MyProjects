@@ -8,7 +8,7 @@
 ### 1.3 应用截图
 <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/1.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/2.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/3.jpg" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/4.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/5.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/6.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/7.png" />
 
-
+</bar></bar></bar>
 ## 2. 便笺--Windows Phone应用
 ### 2.1 应用介绍
 一款简单小巧的应用，方便了您的日常生活。简单、便捷、实用，支持中、宽磁贴，磁贴背景颜色均为主题颜色。
