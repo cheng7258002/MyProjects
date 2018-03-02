@@ -48,7 +48,7 @@
 
 ## 6. 晶向晶面绘制
 ### 6.1 应用介绍
-用于绘制化学中晶体的晶向和晶面。
+用于绘制化学中晶体的晶向和晶面，使用C#编写。
 ### 6.2 下载地址
 下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6)
 ### 6.3 应用截图
@@ -66,26 +66,26 @@
 
 ## 8. 便笺--windows桌面版
 ### 8.1 应用介绍
-仿windows附件中的便笺应用，可更改主题色，可开机自启动。
+仿windows附件中的便笺应用，使用WPF编写，可更改主题色，可开机自启动。
 ### 8.2 下载地址
 下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E4%BE%BF%E7%AC%BA--windows%E7%89%88)
 ### 8.3 应用截图
 <img width="356" height="308" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--windows%E7%89%88/ScreenShots/1.png" />  <img width="356" height="358" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--windows%E7%89%88/ScreenShots/2.png" />  
 
 
-## 9. 
+## 9. 时钟
 ### 9.1 应用介绍
-
+采用WPF编写的一款时钟小程序，实现了系统托盘效果。
 ### 9.2 下载地址
-下载地址：[GitHub]()
+下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E6%97%B6%E9%92%9F)
 ### 9.3 应用截图
-<img width="375" height="270" src="" />  
+<img width="400" height="400" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%97%B6%E9%92%9F/ScreenShots/1.png" />  <img width="174" height="85" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%97%B6%E9%92%9F/ScreenShots/2.png" />  
 
 
-## 10. 
+## 10. 天气预报
 ### 10.1 应用介绍
-
+采用C#编写的一款天气预报程序，以“中国梦”为主题，可查看近三天天气，以及当天的天气详情。
 ### 10.2 下载地址
-下载地址：[GitHub]()
+下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5)
 ### 10.3 应用截图
-<img width="375" height="270" src="" />  
+<img width="444" height="334" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/ScreenShots/1.png" />  <img width="444" height="334" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5/ScreenShots/2.png" />  
