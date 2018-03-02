@@ -66,7 +66,7 @@
 
 ## 8. 便笺--windows桌面版
 ### 8.1 应用介绍
-仿windows附件中的便笺应用，使用WPF编写，可更改主题色，可开机自启动。
+仿windows附件中的便笺应用，使用C#编写，可更改主题色，可开机自启动。
 ### 8.2 下载地址
 下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E4%BE%BF%E7%AC%BA--windows%E7%89%88)
 ### 8.3 应用截图
