@@ -8,7 +8,7 @@
 ### 1.3 应用截图
 <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/1.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/2.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/3.jpg" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/4.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/5.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/6.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%90%89%E6%9E%97%E5%8C%96%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F/ScreenShots/7.png" />
 
-</bar></bar></bar>
+
 ## 2. 便笺--Windows Phone应用
 ### 2.1 应用介绍
 一款简单小巧的应用，方便了您的日常生活。简单、便捷、实用，支持中、宽磁贴，磁贴背景颜色均为主题颜色。
@@ -46,13 +46,13 @@
 <img width="474" height="249" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%9B%BD%E4%BA%8CC%E8%AF%AD%E8%A8%80%E5%A4%A7%E9%A2%98%E7%BB%83%E4%B9%A0%E8%BD%AF%E4%BB%B6/ScreenShots/1.png" />  <img width="366" height="273" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%9B%BD%E4%BA%8CC%E8%AF%AD%E8%A8%80%E5%A4%A7%E9%A2%98%E7%BB%83%E4%B9%A0%E8%BD%AF%E4%BB%B6/ScreenShots/2.png" />  <img width="397" height="248" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%9B%BD%E4%BA%8CC%E8%AF%AD%E8%A8%80%E5%A4%A7%E9%A2%98%E7%BB%83%E4%B9%A0%E8%BD%AF%E4%BB%B6/ScreenShots/3.png" />  <img width="397" height="248" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%9B%BD%E4%BA%8CC%E8%AF%AD%E8%A8%80%E5%A4%A7%E9%A2%98%E7%BB%83%E4%B9%A0%E8%BD%AF%E4%BB%B6/ScreenShots/4.png" />  
 
 
-## 6. 
+## 6. 晶向晶面绘制
 ### 6.1 应用介绍
-
+用于绘制化学中晶体的晶向和晶面。
 ### 6.2 下载地址
-下载地址：[GitHub]()
+下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6)
 ### 6.3 应用截图
-<img width="375" height="270" src="" />  
+<img width="468" height="329" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/1.png" />  <img width="468" height="329" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/2.png" />  <img width="468" height="329" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/4.png" />  
 
 
 ## 7. 
