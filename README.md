@@ -12,7 +12,7 @@
 ### 2.1 应用介绍
 一款简单小巧的应用，方便了您的日常生活。简单、便捷、实用，支持中、宽磁贴，磁贴背景颜色均为主题颜色。
 ### 2.2 下载地址
-下载地址1：[微软应用商店](https://www.microsoft.com/store/apps/9WZDNCRDLJ7M)
+下载地址1：[微软应用商店](https://www.microsoft.com/store/apps/9WZDNCRDLJ7M)</br>
 下载地址2：[GitHub](https://github.com/cheng7258002/MyProjects/raw/master/%E4%BE%BF%E7%AC%BA--WP%E5%BA%94%E7%94%A8/%E4%BE%BF%E7%AC%BA.xap)
 ### 2.3 应用截图
 <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--WP%E5%BA%94%E7%94%A8/ScreenShots/1.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--WP%E5%BA%94%E7%94%A8/ScreenShots/2.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--WP%E5%BA%94%E7%94%A8/ScreenShots/3.png" />  <img width="216" height="384" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--WP%E5%BA%94%E7%94%A8/ScreenShots/4.png" />
