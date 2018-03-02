@@ -64,13 +64,13 @@
 <img width="531" height="363" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%BD%91%E7%AB%99--%E5%89%8D%E7%AB%AF/ScreenShots/1.png" />  <img width="531" height="363" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%BD%91%E7%AB%99--%E5%89%8D%E7%AB%AF/ScreenShots/2.png" />  <img width="531" height="363" src="https://github.com/cheng7258002/MyProjects/blob/master/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%BD%91%E7%AB%99--%E5%89%8D%E7%AB%AF/ScreenShots/3.png" />  
 
 
-## 8. 
+## 8. 便笺--windows桌面版
 ### 8.1 应用介绍
-
+仿windows附件中的便笺应用，可更改主题色，可开机自启动。
 ### 8.2 下载地址
-下载地址：[GitHub]()
+下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E4%BE%BF%E7%AC%BA--windows%E7%89%88)
 ### 8.3 应用截图
-<img width="375" height="270" src="" />  
+<img width="356" height="308" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--windows%E7%89%88/ScreenShots/1.png" />  <img width="356" height="358" src="https://github.com/cheng7258002/MyProjects/blob/master/%E4%BE%BF%E7%AC%BA--windows%E7%89%88/ScreenShots/2.png" />  
 
 
 ## 9. 
