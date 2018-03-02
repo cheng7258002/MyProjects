@@ -52,7 +52,7 @@
 ### 6.2 下载地址
 下载地址：[GitHub](https://github.com/cheng7258002/MyProjects/tree/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6)
 ### 6.3 应用截图
-<img width="468" height="329" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/1.png" />  <img width="468" height="329" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/2.png" />  <img width="468" height="329" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/4.png" />  
+<img width="416" height="292" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/1.png" />  <img width="416" height="292" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/2.png" />  <img width="416" height="292" src="https://github.com/cheng7258002/MyProjects/blob/master/%E6%99%B6%E5%90%91%E6%99%B6%E9%9D%A2%E7%BB%98%E5%88%B6/ScreenShots/4.png" />  
 
 
 ## 7. 
